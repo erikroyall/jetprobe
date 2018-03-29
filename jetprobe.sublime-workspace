@@ -1,0 +1,341 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 524,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.test.js",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMaterial Theme\n--------------\n\n  ## Material Theme for Sublime Text 3\n  \n  For more information on the Material Theme: https://github.com/equinusocio/material-theme\n  \n  **********************************************************************************************\n  \n  # Activate the theme\n  \n  You can activate this theme from:\n  - Command palette `Tools > Command Palette` (⌘/Ctrl + ⇧ + P) by typing `Material Theme: Activate theme`.\n  - Context menu (Right click on the editor) and choose `Material Theme > Activate`\n  - `Preferences > Packages Settings` and choose `Material Theme > Activate`\n  \n  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):\n  \n  ```json\n  \"color_scheme\": \"Packages/Material Theme/schemes/Material-Theme.tmTheme\",\n  \"theme\": \"Material-Theme.sublime-theme\",\n  ```\n  \n  **NOTE:** Restart Sublime Text after activating the theme.\n  \n  ## File icons\n  From release 4.0.0 this theme use [A File Icon](https://github.com/ihodev/a-file-icon) package to display file icons. Please install the package and restart Sublime Text.\n  \n  **********************************************************************************************\n  \n  # Theme options\n  \n  ```json\n  // Accent\n  \"material_theme_accent_acid-lime\"         : true, // Set acid-lime accent color\n  \"material_theme_accent_blue\"              : true, // Set blue accent color\n  \"material_theme_accent_brba\"              : true, // Set Breaking Bad green accent color\n  \"material_theme_accent_bright-teal\"       : true, // Set bright-teal accent color\n  \"material_theme_accent_cyan\"              : true, // Set cyan accent color\n  \"material_theme_accent_graphite\"          : true, // Set graphite accent color\n  \"material_theme_accent_indigo\"            : true, // Set indigo accent color\n  \"material_theme_accent_lime\"              : true, // Set lime green accent color\n  \"material_theme_accent_orange\"            : true, // Set orange accent color\n  \"material_theme_accent_pink\"              : true, // Set pink accent color\n  \"material_theme_accent_purple\"            : true, // Set purple accent color\n  \"material_theme_accent_red\"               : true, // Set pale red accent color\n  \"material_theme_accent_sky\"               : true, // Set bright-cyan accent color\n  \"material_theme_accent_tomato\"            : true, // Set tomato red accent color\n  \"material_theme_accent_yellow\"            : true, // Set yellow accent color\n  \n  // Panels\n  \"material_theme_accent_scrollbars\"        : true, // Enable accent color for scrollbars\n  \"material_theme_accent_titlebar\"          : true, // Enable accent color for titlebar\n  \"material_theme_bright_scrollbars\"        : true, // Bright scrollbars puck color\n  \"material_theme_compact_panel\"            : true, // Set minimal padding for the search panel\n  \"material_theme_contrast_mode\"            : true, // Enable sidebar and panels contrast mode\n  \"material_theme_panel_separator\"          : true, // Show bottom panel separator\n  \"material_theme_small_statusbar\"          : true, // Set small status bar\n  \"material_theme_titlebar\"                 : true, // Enable title bar (OS X 10.10+)\n  \n  // Sidebar\n  \"material_theme_arrow_folders\"            : true, // Replace folder icons with arrows\n  \"material_theme_big_fileicons\"            : true, // Show bigger file type icons\n  \"material_theme_bullet_tree_indicator\"    : true, // Set a bullet as active tree indicator\n  \"material_theme_compact_sidebar\"          : true, // Set compact side bar\n  \"material_theme_disable_fileicons\"        : true, // Hide sidebar file type icons\n  \"material_theme_disable_folder_animation\" : true, // Disable folder animation\n  \"material_theme_disable_tree_indicator\"   : true, // Disable sidebar file indicator\n  \n  // Tabs\n  \"material_theme_bold_tab\"                 : true, // Make the tab labels bolder\n  \"material_theme_small_tab\"                : true, // Set small tabs\n  \"material_theme_tabs_autowidth\"           : true, // Enable autowidth for tabs\n  \"material_theme_tabs_separator\"           : true, // Show tabs separator, this disables tab hover animation\n  \n  // If you use Material Theme - Appbar addon you can use additional settings:\n  \"material_theme_tree_headings\"            : true, // Show sidebar headings\n  ```\n  \n  **********************************************************************************************\n  \n  # Recommended settings for a better experience:\n  \n  ```json\n  \"always_show_minimap_viewport\" : true,\n  \"bold_folder_labels\"           : true,\n  \"font_options\"                 : [\"gray_antialias\", \"subpixel_antialias\"], // On retina Mac & Windows\n  \"indent_guide_options\"         : [\"draw_normal\", \"draw_active\"], // Highlight active indent\n  \"line_padding_bottom\"          : 3,\n  \"line_padding_top\"             : 3,\n  \"overlay_scroll_bars\"          : \"enabled\",\n  ```\n\n\nMaterial Theme - Appbar\n-----------------------\n\n  ___  ___      _            _       _       _____ _\n  |  \\/  |     | |          (_)     | |     |_   _| |\n  | .  . | __ _| |_ ___ _ __ _  __ _| |       | | | |__   ___ _ __ ___   ___\n  | |\\/| |/ _` | __/ _ \\ '__| |/ _` | |       | | | '_ \\ / _ \\ '_ ` _ \\ / _ \\\n  | |  | | (_| | ||  __/ |  | | (_| | |       | | | | | |  __/ | | | | |  __/\n  \\_|  |_/\\__,_|\\__\\___|_|  |_|\\__,_|_|       \\_/ |_| |_|\\___|_| |_| |_|\\___|\n  \n  Material Theme - White Panels Addon\n  https://github.com/equinusocio/material-theme-appbar\n  \n  ******************************************************************************\n  \n  With this addon you can add a tinted app bar to your Material Theme installation.\n  This addon auto fits with material theme accent colors!\n  \n  NOTE: If you've intalled 1.0.0 through Package Control please unistall and reinstall\n  \n  ## Addon options\n  \n  ```json\n  \"material_theme_tree_headings\": true , // Show siderbar headings\n  ```\n\n\nA File Icon\n-----------\n\n  ```\n  \n      $$$$$$\\        $$$$$$$$\\ $$\\ $$\\                 $$$$$$\\                              \n     $$  __$$\\       $$  _____|\\__|$$ |                \\_$$  _|                             \n     $$ /  $$ |      $$ |      $$\\ $$ | $$$$$$\\          $$ |  $$$$$$$\\  $$$$$$\\  $$$$$$$\\  \n     $$$$$$$$ |      $$$$$\\    $$ |$$ |$$  __$$\\         $$ | $$  _____|$$  __$$\\ $$  __$$\\ \n     $$  __$$ |      $$  __|   $$ |$$ |$$$$$$$$ |        $$ | $$ /      $$ /  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |$$   ____|        $$ | $$ |      $$ |  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |\\$$$$$$$\\       $$$$$$\\\\$$$$$$$\\ \\$$$$$$  |$$ |  $$ |\n     \\__|  \\__|      \\__|      \\__|\\__| \\_______|      \\______|\\_______| \\______/ \\__|  \\__|\n  \n  ```\n  \n  This package adds file specific icons to Sublime Text for improved visual grepping. \n  It's heavily inspired by Atom File Icons.\n  \n  ***\n  \n  1. Please restart Sublime Text for the applied icons to take effect.\n  2. The icons for packages provided by the community must be installed,\n     i.e., if you want to see SCSS icons you should install one of the SCSS syntax packages.\n  \n  ***\n  \n  I've put a lot of time and effort into making `A File Icon` awesome. If you love \n  it, you can [buy me a coffee](https://www.patreon.com/ihodev) ☕.\n",
+			"settings":
+			{
+				"buffer_size": 7274,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "mater",
+		"selected_items":
+		[
+			[
+				"mater",
+				"Material Theme: Extras"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"babel",
+				"Babel Transform"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/erikr/Documents/jetprobe",
+		"/C/Users/erikr/Documents/jetprobe/public",
+		"/C/Users/erikr/Documents/jetprobe/src"
+	],
+	"file_history":
+	[
+		"/C/Users/erikr/Documents/jetprobe/jetprobe.sublime-project",
+		"/C/Users/erikr/Documents/jetprobe/src/App.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/config.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/callouts.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/ctap.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/sniper.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/soldier.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/autoexec.cfg",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/custom.cfg"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/App.test.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jetprobe.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
