@@ -56,7 +56,7 @@ class UserInfo extends Component {
     return (
       <div className="user-info">
         <div className="user-info-content">
-          <a style={{ backgroundImage: `url(${this.props.imgurl}` }} className="user-info-image"></a>
+          <span style={{ backgroundImage: `url(${this.props.imgurl}` }} className="user-info-image"></span>
           <span className="user-info-name">{this.props.name}</span>
           <span className="user-info-drop"><i className="material-icons">arrow_drop_down</i></span>
         </div>
