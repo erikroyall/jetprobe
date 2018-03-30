@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -7,8 +8,13 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   background-color: #f5f6fa;
+  font-family: 'Cantarell', sans-serif;
 }
 
 .material-icons {
@@ -38,13 +44,13 @@ body {
     border-right: 2px solid #ffffff;
   }
 
-  .main-menu-list li:hover {
+  .main-menu-list li:hover, .main-menu-list li.active {
     color: #4c84ff;
     border-right: 2px solid #4c84ff;
     cursor: pointer;
   }
 
-  .main-menu-list li:hover i {
+  .main-menu-list li:hover i, .main-menu-list li.active i {
     color: #4c84ff;
   }
 
@@ -102,9 +108,9 @@ body {
         display: inline-block;
         vertical-align: middle;
         padding: 1em;
-        font-family: 'Montserrat', sans-serif;
         font-size: 0.9em;
-        font-weight: bold;
+        font-weight: 700;
+        color: #19233c;
       }
 
       .user-info-name {
@@ -118,3 +124,241 @@ body {
         top: 4px;
         line-height: 1;
       }
+
+.activities {
+  margin: 6em 0 0 5em;
+  padding: 1em 4em;
+}
+
+  .activities h1 {
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+  }
+
+.activity-menu {
+  padding-right: 2em;
+}
+
+  .activity-menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #e5e6eb;
+  }
+
+  .activity-menu-item {
+    color: #9fa6b5;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1em 0 1em 0;
+    margin: 0 3em 0 0;
+    border-bottom: 2px solid #f5f6fa;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+
+  .activity-menu-item[data-is-active] {
+    color: #19243d;   
+    border-bottom: 2px solid #4c84ff;
+  }
+
+  .activity-menu-item:hover {
+    border-bottom: 2px solid #4c84ff;
+  }
+
+.activity-info {
+  width: 100%;
+  display: block;
+  font-size: 0.85em;
+  font-weight: bold;
+  padding-right: 2em;
+}
+
+.activity-info-head {
+  color: #8b93a6;
+  display: block;
+  overflow: auto;
+  width: 100%;
+  padding: 0.7em 1.5em;
+}
+
+  .activity-info-head th {
+    display: inline-block;
+    float: left;
+    color: #8b93a6;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    cursor: pointer;
+  }
+
+    .activity-info-head th i {
+      position: relative;
+      bottom: -0.2em;
+      right: -0.2em;
+    }
+
+  .activity-info-head th:before {
+    content: '';
+  }
+
+.activity-info-row {
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 1.5em;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+  .activity-info-row:hover {
+    box-shadow: 0px 10px 50px 0px rgba(200,200,200,1);
+  }
+  
+  .activity-info-data {
+    display: inline-block;
+    float: left;
+  }
+
+  .activity-info-data-icon {
+    width: 5%;
+    padding-right: 2em;
+    text-align: right;
+  }
+
+    .activity-info-data-icon-text {
+      padding: 0.5em 0.8em;
+      border-radius: 2em;
+    }
+
+    .activity-info-data-icon-text[data-color^="D"] {
+      background-color: #dbe7ff;
+      color: #4d84ff;
+    }
+
+    .activity-info-data-icon-text[data-color^="R"] {
+      background-color: #d4f5ea;
+      color: #5fdab1;
+    }
+
+    .activity-info-data-icon-text[data-color^="O"] {
+      background-color: #fcf0ca;
+      color: #fac203;
+    }
+
+  .activity-info-data-type {
+    width: 40%;
+    padding-left: 1em;
+    color: #19243c;
+  }
+
+  .activity-info-data-date {
+    width: 40%;
+    color: #8b93a6;
+  }
+
+  .activity-info-data-value {
+    width: 15%;
+    color: #4c83ff;
+  }
+
+    .activity-info-data-value:before {
+      content: '$';
+    }
+
+.main-panel, .sidebar {
+  display: inline-block;
+}
+
+.main-panel { width: 77%; float:left; }
+.sidebar { width: 23%; }
+
+.funds {
+  font-weight: bold;
+  padding: 3em 2em;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 2px solid #e5e9f2;
+}
+
+  .funds-info-left, .funds-info-right {
+    display: block;
+    float: left;
+  }
+
+  .funds-info-left {
+    width: 70%;
+  }
+
+  .funds-info-right {
+    width: 30%;
+    text-align: right;
+  }
+
+  .funds-left {
+    color: #1a223d;
+    font-size: 2em;
+  }
+
+    .funds-left:before {
+      content: '$';
+      font-size: 0.7em;
+      position: relative;
+      top: -0.3em;
+    }
+
+  .funds-deposit {
+    display: block;
+    margin-top: 1em;
+    font-size: 0.8em;
+  }
+
+    .funds-deposit:before {
+      content: 'Deposits: ';
+      color: #8a93a7;
+    }
+
+  .funds-growth {
+    color: #6395ff;
+    font-size: 1em;
+  }
+
+  .funds-add-button {
+    margin-top: 3em;
+    font-size: 0.8em;
+    padding: 0.5em;
+    border: 0;
+    width: 100%;
+    text-align: left; 
+    vertical-align:middle;
+    line-height: 16px;
+    border-radius: 2em;
+    background-color: #6395ff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+    .funds-button-text, .funds-button-icon {
+      display: inline-block;
+    }
+
+    .funds-button-text {
+      width: 70%;
+      font-weight: bold;
+      line-height: 16px;
+      top: -0.2em;
+      position: relative;
+      padding-left: 1em
+    }
+    .funds-button-icon {
+      width: 30%;
+      text-align: right;
+    }
+
+    .funds-button-arrow {
+      color: #ffffff;
+      position: relative;
+      background-color: #2d69eb;
+      padding: 0.4em;
+      border-radius: 1em;
+    }

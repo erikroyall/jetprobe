@@ -14,7 +14,9 @@ class MainMenu extends Component {
       <div className="main-menu">
         <ul className="main-menu-list">
           {menuItems.map(({icon}, id) => {
-            console.log(icon);
+            if (icon.toLowerCase() === this.props.active) {
+              return <li key={id} className="active"><i className="material-icons">{icon}</i></li>
+            }
             return <li key={id}><i className="material-icons">{icon}</i></li>
           })}
         </ul>
@@ -42,7 +44,7 @@ class Panel extends Component {
   render() {
     return (
       <div>
-        <MainMenu></MainMenu>
+        <MainMenu active={this.props.active}></MainMenu>
         <TopBar></TopBar>
       </div>
     );

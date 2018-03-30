@@ -6,8 +6,7 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-        <Panel></Panel>
-        <Activities load="portfolio"></Activities>
+        <Activities active="portfolio"></Activities>
       </div>
     );
   }
