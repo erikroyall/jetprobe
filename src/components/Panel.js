@@ -44,8 +44,8 @@ class Panel extends Component {
   render() {
     return (
       <div>
-        <MainMenu active={this.props.active}></MainMenu>
         <TopBar></TopBar>
+        <MainMenu active={this.props.active}></MainMenu>
       </div>
     );
   }

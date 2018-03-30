@@ -14,25 +14,27 @@ class ActivityInfo extends Component {
     ];
 
     return (
-      <table className="activity-info">
-        <thead className="activity-info-head">
-          <tr>
-            <th className="activity-info-data-icon"></th>
-            <th className="activity-info-data-type">Type<i className="material-icons">&#xE5C5;</i></th>
-            <th className="activity-info-data-date">Date<i className="material-icons">&#xE5C5;</i></th>
-            <th className="activity-info-data-value">Value<i className="material-icons">&#xE5C5;</i></th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((o, key) => {
-            return <PortfolioItem key={key} data={{
-              type: o[0],
-              date: o[1],
-              value: o[2]
-            }}></PortfolioItem>
-          })}
-        </tbody>
-      </table>
+      <div className="activity-table-wrapper">
+        <table className="activity-info">
+          <thead className="activity-info-head">
+            <tr>
+              <th className="activity-info-data-icon"></th>
+              <th className="activity-info-data-type">Type<i className="material-icons">&#xE5C5;</i></th>
+              <th className="activity-info-data-date">Date<i className="material-icons">&#xE5C5;</i></th>
+              <th className="activity-info-data-value">Value<i className="material-icons">&#xE5C5;</i></th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((o, key) => {
+              return <PortfolioItem key={key} data={{
+                type: o[0],
+                date: o[1],
+                value: o[2]
+              }}></PortfolioItem>
+            })}
+          </tbody>
+        </table>
+      </div>
     );
   }
 }
