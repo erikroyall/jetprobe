@@ -9,9 +9,9 @@ class ActivityMenu extends Component {
         <ul>
           {data.map((o, key) => {
             if (this.props.active === o.toLowerCase()) {
-              return <li className="activity-menu-item" data-is-active>{o}</li>
+              return <li key={key} className="activity-menu-item" data-is-active>{o}</li>
             }
-            return <li className="activity-menu-item">{o}</li>
+            return <li key={key} className="activity-menu-item">{o}</li>
           })}
         </ul>
       </div>

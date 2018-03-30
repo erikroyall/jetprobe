@@ -7,7 +7,7 @@ class Activities extends Component {
   render() {
     return (
       <div className="activities">
-        <div class="main-panel">
+        <div className="main-panel">
           <h1>Activities</h1>
           <ActivityMenu active={this.props.active}></ActivityMenu>
           <ActivityInfo active={this.props.active}></ActivityInfo>

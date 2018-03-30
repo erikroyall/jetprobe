@@ -16,18 +16,22 @@ class ActivityInfo extends Component {
     return (
       <table className="activity-info">
         <thead className="activity-info-head">
-          <th className="activity-info-data-icon"></th>
-          <th className="activity-info-data-type">Type<i class="material-icons">&#xE5C5;</i></th>
-          <th className="activity-info-data-date">Date<i class="material-icons">&#xE5C5;</i></th>
-          <th className="activity-info-data-value">Value<i class="material-icons">&#xE5C5;</i></th>
+          <tr>
+            <th className="activity-info-data-icon"></th>
+            <th className="activity-info-data-type">Type<i className="material-icons">&#xE5C5;</i></th>
+            <th className="activity-info-data-date">Date<i className="material-icons">&#xE5C5;</i></th>
+            <th className="activity-info-data-value">Value<i className="material-icons">&#xE5C5;</i></th>
+          </tr>
         </thead>
-        {data.map((o, key) => {
-          return <PortfolioItem key={key} data={{
-            type: o[0],
-            date: o[1],
-            value: o[2]
-          }}></PortfolioItem>
-        })}
+        <tbody>
+          {data.map((o, key) => {
+            return <PortfolioItem key={key} data={{
+              type: o[0],
+              date: o[1],
+              value: o[2]
+            }}></PortfolioItem>
+          })}
+        </tbody>
       </table>
     );
   }
@@ -36,15 +40,15 @@ class ActivityInfo extends Component {
 class PortfolioItem extends Component {
   render() {
     return (
-      <tr class="activity-info-row">
-        <td class="activity-info-data activity-info-data-icon">
+      <tr className="activity-info-row">
+        <td className="activity-info-data activity-info-data-icon">
           <span className="activity-info-data-icon-text" data-color={this.props.data.type[0]}>
             {this.props.data.type[0]}
           </span>
         </td>
-        <td class="activity-info-data activity-info-data-type">{this.props.data.type}</td>
-        <td class="activity-info-data activity-info-data-date">{this.props.data.date}</td>
-        <td class="activity-info-data activity-info-data-value">{this.props.data.value}</td>
+        <td className="activity-info-data activity-info-data-type">{this.props.data.type}</td>
+        <td className="activity-info-data activity-info-data-date">{this.props.data.date}</td>
+        <td className="activity-info-data activity-info-data-value">{this.props.data.value}</td>
       </tr>
     );
   }
